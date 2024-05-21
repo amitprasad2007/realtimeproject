@@ -20,3 +20,4 @@ Route::middleware('auth')->group(function () {
 Route::view('heydashboard','viws.heavey');
 
 require __DIR__.'/auth.php';
+
