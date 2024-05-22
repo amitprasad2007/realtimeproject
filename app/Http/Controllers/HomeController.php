@@ -2,7 +2,6 @@
 namespace App\Http\Controllers;
 
 use App\Events\GotMessage;
-use App\Jobs\SendMessage;
 use App\Models\Message;
 use App\Models\User;
 use Illuminate\Http\JsonResponse;
